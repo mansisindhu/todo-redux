@@ -1,13 +1,7 @@
 import { ADD_TODO, DELETE_TODO, EDIT_TODO, TOGGLE_TODO } from "./actionTypes";
 
 const initState = {
-  todos: [
-    {
-      title: "Learn redux",
-      status: false,
-      id: 1,
-    },
-  ],
+  todos: [],
 };
 
 const reducer = (state = initState, { type, payload }) => {
